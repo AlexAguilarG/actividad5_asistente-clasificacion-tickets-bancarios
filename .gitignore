@@ -1,0 +1,23 @@
+# Entornos y secretos
+.venv/
+venv/
+.env
+*.token
+__pycache__/
+.ipynb_checkpoints/
+
+# Datos derivados/descargados (obtener mediante fuentes/datos_prep.py)
+datos/datos_ini/*.csv
+datos/datos_limp/*.csv
+datos/datos_limp/*.npy
+!datos/**/.gitkeep
+
+# MLflow local y modelos serializados
+mlruns/
+modelos/*
+!modelos/.gitkeep
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
