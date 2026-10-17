@@ -1,0 +1,14 @@
+{
+  "model_a": "logistic_regression",
+  "model_b": "random_forest",
+  "paired_test": "Exact McNemar test on held-out accuracy errors",
+  "model_a_correct_model_b_wrong": 90,
+  "model_a_wrong_model_b_correct": 42,
+  "mcnemar_exact_p_value": 3.573574653630987e-05,
+  "alpha": 0.05,
+  "mcnemar_interpretation": "significant difference",
+  "cv_test": "paired Wilcoxon signed-rank test on 5 best-grid fold scores; exploratory due to small number of folds",
+  "wilcoxon_statistic": 0.0,
+  "wilcoxon_p_value": 0.0625,
+  "caution": "The same CV folds were used to select hyperparameters; treat CV significance as exploratory. McNemar compares paired test correctness only and does not establish operational superiority."
+}

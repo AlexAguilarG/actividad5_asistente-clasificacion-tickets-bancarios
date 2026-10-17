@@ -1,0 +1,4 @@
+model,model_id,train_samples,test_samples,accuracy,precision_macro,recall_macro,f1_macro,latency_ms_per_ticket,gpu_peak_allocated_mb
+MPNet multilingual v2,sentence-transformers/paraphrase-multilingual-mpnet-base-v2,6036,1925,0.8566233766233766,0.861966002157725,0.8566233766233765,0.8553186807690081,1.2173723033765191,1287.81591796875
+MiniLM-L12-v2,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,6036,1925,0.8498701298701299,0.8566608552023309,0.8498701298701299,0.8487958044664473,0.4109670535063895,568.56591796875
+DistilUSE multilingual v2,sentence-transformers/distiluse-base-multilingual-cased-v2,6036,1925,0.8374025974025974,0.8408126401226029,0.8374025974025975,0.8347799872408189,0.6866132815584579,1299.74560546875
